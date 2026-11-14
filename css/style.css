@@ -93,4 +93,10 @@
       min-height: 420px;
     }
   }
-  
+  .maintenance-notice {
+    color: #d00000;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+  }  
