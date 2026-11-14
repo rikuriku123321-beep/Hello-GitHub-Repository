@@ -100,3 +100,39 @@
     margin-top: 5px;
     text-align: center;
   }  
+  .hero {
+    height: 600px;
+    background-image:
+      linear-gradient(
+        rgba(0, 0, 0, 0.35),
+        rgba(0, 0, 0, 0.35)
+      ),
+      url("../images/kominka.jpg");
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-content h2 {
+    color: #ffffff;
+    font-size: 42px;
+    line-height: 1.8;
+    letter-spacing: 5px;
+    font-weight: normal;
+  }
+  @media (max-width: 768px) {
+    .hero {
+      height: 450px;
+    }
+  
+    .hero-content h2 {
+      font-size: 28px;
+      letter-spacing: 3px;
+    }
+  }
